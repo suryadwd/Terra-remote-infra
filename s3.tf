@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "remote_s3" {
-  bucket = "tws_surya_s3_bucket"
+  bucket = "tws-surya-s3-bucket"
 
   tags = {
-    Name        = "tws_surya_s3_bucket"
+    Name        = "tws-surya-s3-bucket"
   }
 }
