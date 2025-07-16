@@ -1,10 +1,10 @@
 resource "aws_dynamodb_table" "dynamodb" {
   name           = "GameScores"
   billing_mode   = "PAY_PER_REQUEST"
-  hash_key       = "lockId"
-
+  hash_key = "LockID"
+  
   attribute {
-    name = "lockId"
+    name =  "LockID"
     type = "S"
   }
 
